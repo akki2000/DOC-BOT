@@ -70,7 +70,7 @@ def user_input(user_question):
 # Main function to run the app
 def main():
     st.set_page_config("Chat PDF")  # Move this to the top of the main function
-    st.header("Ask me anything using BoardroomAI")
+    st.header("Ask me anything")
 
     user_question = st.text_input("Ask a any Question")
 
